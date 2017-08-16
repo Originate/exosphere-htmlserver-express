@@ -2,10 +2,6 @@ type: {{serviceType}}
 description: {{description}}
 author: {{author}}
 
-# defines the commands to make the service runnable:
-# install its dependencies, compile it, etc.
-setup: yarn install
-
 # defines how to boot up the service
 startup:
 
