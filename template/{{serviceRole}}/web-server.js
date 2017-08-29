@@ -19,7 +19,7 @@ class WebServer extends EventEmitter {
 
     // view engine setup
     this.app.set('views', path.join(__dirname, './app/views'))
-    this.app.set('view engine', 'jade')
+    this.app.set('view engine', 'pug')
     this.app.use(logger('dev'))
     this.app.use(express['static'](path.join(__dirname, './app/public')))
     this.app.use(require('./webpack/middleware'))
