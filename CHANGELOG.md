@@ -1,3 +1,7 @@
+# 0.26.2 (2017-09-06)
+
+* Fix require statement (`jade` needed to be updated to `pug`)
+
 # 0.26.1 (2017-09-06)
 
 * Update exorelay to v0.26.1
