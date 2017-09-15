@@ -1,3 +1,7 @@
+# 0.27.0 (2017-09-14)
+
+* Update to dev/prod dockerfile format
+
 # 0.26.2 (2017-09-06)
 
 * Fix require statement (`jade` needed to be updated to `pug`)
