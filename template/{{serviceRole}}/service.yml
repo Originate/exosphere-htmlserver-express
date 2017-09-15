@@ -4,10 +4,6 @@ author: {{author}}
 
 # defines how to boot up the service
 startup:
-
-  # the command to boot up the service
-  command: node ./index.js
-
   # the string to look for in the terminal output
   # to determine when the service is fully started
   online-text: HTML server is running
@@ -23,3 +19,8 @@ dependencies:
 
 docker:
   ports:
+
+development:
+  scripts:
+    # the command to boot up the service
+    run: node ./index.js
