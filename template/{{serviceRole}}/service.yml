@@ -21,6 +21,7 @@ docker:
   ports:
 
 development:
+  port: 3000
   scripts:
     # the command to boot up the service
     run: node ./index.js
